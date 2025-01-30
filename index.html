@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IWP Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>IWP Website</h1>
+        <nav>
+            <a href="#text">Text</a> | 
+            <a href="#list">Lists</a> | 
+            <a href="#table">Tables</a> | 
+            <a href="#form">Form</a> | 
+            <a href="#media">Media</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="text">
+            <h2>Stress Management</h2>
+            <p>We live in a world filled with stress due to work, placements, and peer pressure. Managing it is essential to maintain mental peace and avoid illness. <br> Staying in touch with family and friends and keeping away from negativity is crucial in today’s world. Stress affects hormones and leads to health issues.</p>
+            <em><strong>Go ahead, stress less, and enjoy life!</strong></em>.
+            <br>
+            <mark>Fill out the form below to share your thoughts on stress management.</mark>
+        </section>
+
+        <section id="list">
+            <h2>Ways to Avoid Stress</h2>
+            <h3>Unordered List</h3>
+            <ul>
+                <li>Eat healthy</li>
+                <li>Remove toxic people from life</li>
+                <li>Sleep well</li>
+            </ul>
+
+            <h3>Ordered List</h3>
+            <ol>
+                <li>Follow routines</li>
+                <li>Manage studies</li>
+                <li>Enjoy life</li>
+            </ol>
+        </section>
+
+        <section id="table">
+            <h2>Pros and Cons</h2>
+            <p>Here’s a table to compare the positives and negatives:</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Pros</th>
+                        <th>Cons</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Eat healthy</td>
+                        <td>Junk food is harmful</td>
+                    </tr>
+                    <tr>
+                        <td>Keep oneself busy</td>
+                        <td>Negativity affects the mind</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="form">
+            <h2>Contact Form</h2>
+            <form action="#" method="post">
+                <label for="name"><b>Name:</b></label>
+                <input type="text" id="name" name="name" placeholder="Enter your name">
+                
+                <label for="email"><b>Email:</b></label>
+                <input type="email" id="email" name="email" placeholder="Enter your email">
+                
+                <label for="message"><b>Message:</b></label>
+                <textarea id="message" name="message" rows="4" cols="30" placeholder="Enter your message"></textarea>
+                
+                <label><b>Gender:</b></label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+                <input type="radio" id="others" name="gender" value="others">
+                <label for="others">Others</label>
+                
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+
+        <section id="media">
+            <h2>Media Elements</h2>
+            <h3>Image</h3>
+            <img src="gallery-2.jpeg" alt="Relaxation Image">
+
+            <h3>Video</h3>
+            <video autoplay muted loop>
+                <source src="yoga.mp4" type="video/mp4">
+                Browser does not support the video element.
+            </video>
+        </section>
+    </main>
+
+    <footer>
+        <p> Made by Ree</p>
+    </footer>
+
+</body>
+</html>
